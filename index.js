@@ -42,7 +42,19 @@ var envify = require('envify')
  * External libraries
  */
 
-var externals = ['react', 'd3', 'jquery']
+var externals = [
+    'react',
+    'd3',
+    'jquery',
+    'angular',
+    'angular-animate',
+    'angular-aria',
+    'angular-gravatar',
+    'angular-material',
+    'angular-material-style',
+    'angular-resource',
+    'animate-style'
+]
 
 /**
  * Production
